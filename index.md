@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,3 +63,4 @@ var x = setInterval(function() {
 </script>
 
 </body>
+</html>
