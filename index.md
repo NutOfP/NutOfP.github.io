@@ -57,7 +57,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "relikairmp.github.io/showtime";
+    document.getElementById("demo").innerHTML = "Time is up, no further contact.";
   }
 }, 1000);
 </script>
