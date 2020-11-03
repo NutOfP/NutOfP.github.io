@@ -33,7 +33,7 @@ p {
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("June 07, 2020 20:00:00").getTime();
+var countDownDate = new Date("November 10, 2020 07:30:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -57,7 +57,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Time is up, no further contact.";
+    document.getElementById("demo").innerHTML = "Hold the line.";
   }
 }, 1000);
 </script>
