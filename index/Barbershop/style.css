@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+  background-color: beige;
+}
+
+#wrapper {
+    width: 100%;
+	  height: 800px;
+    margin: auto;
+    background-color: beige;
+    animation-name: Eingang;
+    animation-duration: 0.3s;
+    font-size: 20px;
+}
+
+#flex {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+header {
+    height: 30%;
+    width: 100%;
+    background-color: beige;
+}
+
+nav {
+	left: 50%;
+	position: absolute;
+	margin-right: -50%;
+	transform: translate(-50%, 0%);
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+section {
+}
+
+.links {
+	display: none;
+	height: 100%;
+	width: 50%;
+}
+
+#rechts {
+	position: relative;
+	background-color: beige;
+	height: 100%;
+	width: 100%;
+  filter: drop-shadow(-20px 0px 40px #000000);
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	position: relative;
+	height: 15%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: beige;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+p {
+	font-family: arial;
+}
+
+@media screen and (min-width:800px){
+    #wrapper {
+        height: 800px;
+    }
+    .links {
+        display:flex;
+    }
+	#rechts{
+		width: 100%;
+	}
+}
+
+@media screen and (min-height:600px){
+    #wrapper{
+        height: 100%;
+    }
+    #rechts{
+		width: 100%;
+}
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    margin-top: 5px;
+    font-family: Times;
+    font-size: 60px;
+    margin-left: 2%;
+}
+
+h2{
+    font-family: Times;
+}
+
+@media screen and (min-height:900px){
+    h1{
+        font-size: 80px;
+        
+    }
+    #logo{
+        margin-top: 40px;
+    }
+}
+
+#partition1{
+    height: 2px;
+    width: 97%;
+    background-color: darkorange;
+    margin-left: 10px;
+}
+
+#intro{
+    font-family: Times;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 40px;
+    display: none;
+    column-count: 2;
+}
+
+#Kintro{
+    font-family: Times;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    column-count: 2;
+}
+
+
+#Programm{
+    height: 20%;
+    width: 100%;
+    background-color: beige;
+    margin-top: 9%;
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media screen and (min-width:1250px){
+    #Programm{
+        display: flex;
+    }
+    #intro{
+      display: inherit;
+    }
+    #Kintro{
+      display: none;
+    }
+}
+
+@media screen and (min-width:1700px){
+    #rechts{
+        width: 50%;
+    }
+    #LHome{
+        background-position: -200px;
+    }
+    #o1{
+      margin-top: 2%;
+    }
+}
+
+
+#pro1{
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    background-image: url(Bilder/VltKln.png);
+    background-repeat: no-repeat;
+}
+
+#protext{
+  margin-top: 45%;
+  margin-left: 8%;
+}
+
+#pro2{
+    height: 200px;
+    width: 200px;
+    background-image: url(Bilder/VltKln2.png);
+    background-repeat: no-repeat;
+}
+
+#pro3{
+    height: 200px;
+    width: 200px;
+    background-image: url(Bilder/VltKln3.png);
+    background-repeat: no-repeat;
+}
+
+#pro4{
+    height: 200px;
+    width: 200px;
+    margin-right: auto;
+    background-image: url(Bilder/VltKln4.png);
+    background-repeat: no-repeat;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+@keyframes hover {
+  from   {font-size: 16px;}
+  to {font-size: 20px;}
+}
+
+a:hover{
+    animation-name: hover;
+    animation-duration: 0.3s;
+    font-size: 20px;
+}
+
+#onpage a{
+    color: orange;
+}
+
+#reihe1{
+    display: flex;
+}
+
+#kreihe1{
+  display: flex;
+}
+
+#TeamNAME{
+  margin-left: 25%
+}
+
+#Jerome{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+#KJerome{
+  margin-left: 1%;
+}
+
+#kleinreihe{
+  display: inline;
+}
+#großreihe{
+  display: none;
+}
+
+@media screen and (min-width:1300px){
+    #kleinreihe{
+      display: none;
+    }
+
+    #großreihe{
+      display: inline;
+    }
+}
+
+@media screen and (min-width:600px){
+    #KJerome{
+      margin-left: 20%;
+    }
+}
+
+@keyframes Eingang {
+  0% {
+    transform: translateY(-20px);
+    filter: blur(2px);
+  }
+  100% {
+    transform: translateY(0px);
+    filter: blur(0px);
+    }
+  }
+
+#protext{
+  font-family: Times;
+  font-size: 20px;
+}
+
+#partition2{
+    height: 2px;
+    width: 97%;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: -15%
+  }
+
+#LHome{
+  background-image: url(Material/Image.jpg);
+  background-position: 50%;
+  background-size: 230%;
+}
+
+#LTeam{
+  background-image: url(Material/ImageTEAM.jpg);
+  background-position: 90%;
+}
+
+#LOeffnung{
+  background-image: url(Material/ImageOEF.png);
+  background-position: 25%;
+  background-size: 300%
+}
+
+#LUeber{
+  background-image: url(Material/Impressum.jpg);
+  background-position: -600px;
+}
+
+#LPreise{
+  background-image: url(Material/ImagePREISE.jpg);
+  background-position: -100%;
+  background-size: 240%;
+}
+
+#LImpressum{
+  background-image: url(Material/OfficeBild.jpg);
+  background-position: -100px;
+  background-size: 170%;
+}
+
+.oefblock{
+  background-repeat: no-repeat;
+  height: 185px;
+  width: 572px;
+  display: block;
+  margin-left: 3%;
+  margin-right: auto;
+  margin-top: 1%;
+}
+#o1{background-image: url(Material/OefBlock1.png);}
+#o2{background-image: url(Material/OefBlock2.png);}
+#o3{background-image: url(Material/OefBlock3.png);}
+
+#Ueb{
+  margin-left: 7%;
+  margin-top: 4%;
+  height: 600px;
+  width:90%;
+}
+
+#Ueb img{transform: scale(1,1);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;}
+#Ueb p{float: right;}
+
+#Uns{
+  width: 100%;
+  height: 80%;
+}
+
+p{font-family: Times;}
+
+#Imp{
+  height: 10%;
+}
+
+#ImpCont{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 4%;
+  display: flex;
+}
+
+#leftCONT{width: 30%;}
+#rightCONT{width: 70%;}
+
+#preiseTAB {
+  font-family: Times;
+  border-collapse: collapse;
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 80%;
+}
+
+#preiseTAB td, #preiseTAB th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#preiseTAB tr:nth-child(even){background-color: #f2f2f2;}
+
+#preiseTAB tr:hover {background-color: #ddd;}
+
+#preiseTAB th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: darkorange;
+  color: white;
+}
+#Kopff{
+  display: flex;
+}
+#Kopff img{
+  margin-left: 1%;
+}
+
+#Map{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navarrows{opacity: 20%;}
+.navarrows:hover{opacity: 30%;}
+
+svg{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}

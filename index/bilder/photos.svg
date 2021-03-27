@@ -1,0 +1,20 @@
+<svg width="677.33mm" height="381mm" version="1.1" viewBox="0 0 677.33 381" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g transform="translate(155.73 65.012)">
+  <image x="-155.73" y="-65.012" width="677.33" height="381" preserveAspectRatio="none" xlink:href="../../../Desktop/WEBPortfolio/JULIANWEB/index/bilder/photos.jpg"/>
+  <image transform="rotate(8.9536)" x="-94.515" y="-53.184" width="101.27" height="122.49" preserveAspectRatio="none" xlink:href="../../../Desktop/WEBPortfolio/JULIANWEB/index/bilder/foto1.png"/>
+  <image x="134.54" y="-30.402" width="98.331" height="118.94" preserveAspectRatio="none" xlink:href="../../../Desktop/WEBPortfolio/JULIANWEB/index/bilder/foto2.png"/>
+  <image transform="rotate(-3.9234)" x="361.84" y="-18.968" width="103.85" height="125.61" preserveAspectRatio="none" xlink:href="../../../Desktop/WEBPortfolio/JULIANWEB/index/bilder/foto3.png"/>
+  <image transform="rotate(21.665)" x="-32.29" y="125.85" width="153.83" height="115.37" preserveAspectRatio="none" xlink:href="../../../Desktop/WEBPortfolio/JULIANWEB/index/bilder/nfoto1.JPG"/>
+  <image transform="rotate(-9.5715)" x="78.091" y="169.74" width="133.7" height="100.28" preserveAspectRatio="none" xlink:href="../../../Desktop/WEBPortfolio/JULIANWEB/index/bilder/nfoto2.JPG"/>
+  <image transform="rotate(24.088)" x="376.84" y="-44.951" width="146.53" height="109.9" preserveAspectRatio="none" xlink:href="../../../Desktop/WEBPortfolio/JULIANWEB/index/bilder/nfoto3.JPG"/>
+  <g fill="#2bf40c">
+   <path d="m-85.086-67.245 100.03 15.761-19.064 121-100.03-15.761z"/>
+   <path d="m134.54-30.402h98.331v118.94h-98.331z"/>
+   <path d="m359.69-43.681 103.61-7.1057 8.5949 125.32-103.61 7.1057z"/>
+   <path d="m-76.469 105.04 142.96 56.79-42.592 107.22-142.96-56.79z"/>
+   <path d="m105.23 154.39 131.84-22.232 16.674 98.882-131.84 22.232z"/>
+   <path d="m317.51 213.1 44.855-100.33 133.77 59.806-44.855 100.33z"/>
+   <path d="m-85.045 283.1 39.687-22.914v45.827z"/>
+  </g>
+ </g>
+</svg>
