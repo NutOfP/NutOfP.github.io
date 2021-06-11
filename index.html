@@ -7,19 +7,29 @@
 <script>function passwd(){
 
     var password = prompt('Enter the Password (in lowercase please, I have sensitive ears!)');
-    if(password.toLowerCase() == "teacher"){
-      window.open("minecraft.zip")    
+    if(password.toLowerCase() == "fish"){
+      window.open("minecraft.7z")    
     }else{
       alert("Wrong Password");
     }
-  }elseif(password.toLowerCase() == "vintage"){
-      window.open("happybirthday.mp3");
-    }
-  }</script>
+  };
+  
+    function pass(){
+
+var pass = prompt('Enter the Password (in lowercase please, I have sensitive ears!)');
+if(pass.toLowerCase() == "vintage"){
+  window.open("happybirthday.mp3");
+}    
+else{
+  alert("Wrong Password");
+}
+}
+  </script>
 </head>
 <body>
 
-    <input type="button" value="download zip file" onClick="passwd()"/>
+    <input type="button" value="download 1" onClick="passwd()"/>
+    <input type="button" value="download 2" onClick="pass()"/>
 
 </body>
 </html>
