@@ -2,12 +2,21 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Under Construction</title>
+<title>(1) New Message! Emily (19)</title>
 <link href="index/style.css" rel="stylesheet" type="text/css">
+<script>function passwd(){
+
+    var password = prompt('Enter the password to download the file:');
+    if(password.toLowerCase() == "teacher"){
+      window.open("folder/history.zip")    
+    }else{
+      alert("incorrect password!! please try again");
+    }
+  }</script>
 </head>
 <body>
 
-<p>passion project comes here. drops mic. uwu</p>
+    <input type="button" value="download zip file" onClick="passwd()"/>
 
 </body>
 </html>
